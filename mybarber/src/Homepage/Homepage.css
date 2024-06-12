@@ -1,0 +1,92 @@
+.grid-container {
+  background-color: #000000;
+  display: grid;
+  grid-template-columns: 1fr ;
+  height: 100vh; /* Imposta l'altezza al 100% dell'altezza della viewport */
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.App-header {
+  text-align: center;
+  margin: auto;
+  margin-top: 8px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 7.5vmin;
+  color: #36d3cf;
+  height: 50px;
+}
+
+.scroll-container {
+  margin-left: 15px;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 98%; 
+}
+
+.buttonRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  margin-top: 10px; 
+}
+
+.calendario {
+  text-align: center;
+  font-size: 40px;
+  flex-shrink: 0;
+  width: 80px;
+  height: 575px; 
+  background-color: #1f1f1f; 
+  border-radius: 20px; 
+  padding: 25px 25px; 
+  margin: 40px auto; 
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #36d3cf;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
+.confirmed-time {
+	background-color: red !important;
+}
+
+.riq-prenotazione {
+  text-align: center;
+  font-size: 40px;
+  width: 350px;
+  height: 450px;
+  background-color: #1f1f1f;
+  border-radius: 20px;
+  padding: 20px 20px;
+  position: absolute;
+  z-index: 1;
+  color: #36d3cf;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: 2px solid #36d3cf; 
+  top:  26%;
+  left: 50%; 
+  transform: translateX(-50%); 
+}
+
+.account-client {
+  font-size: 40px;
+  width: 350px;
+  height: 210px;
+  background-color: #1f1f1f;
+  border-radius: 20px;
+  padding: 20px 20px;
+  position: absolute;
+  z-index: 1;
+  color: #36d3cf;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: 2px solid #36d3cf;
+  top:  11%;
+  left: 87%; 
+  transform: translateX(-50%);
+}
+  
+  
+  
+  

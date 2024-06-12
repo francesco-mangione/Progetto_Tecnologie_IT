@@ -1,0 +1,43 @@
+.grid-container {
+  background-color: #000000;
+  display: grid;
+  grid-template-columns: 1fr ; /* Divide lo spazio in tre colonne di larghezza uguale */
+  height: 100vh; /* Imposta l'altezza al 100% dell'altezza della viewport */
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.App-header {
+  text-align: center;
+  margin: auto;
+  margin-top: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 7.5vmin;
+  color: #36d3cf;
+  height: 50px;
+}
+
+.scroll-container {
+  margin-left: 15px;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 98%; 
+}
+
+.account {
+  font-size: 40px;
+  width: 350px;
+  height: 110px;
+  background-color: #1f1f1f;
+  border-radius: 20px;
+  padding: 20px 20px;
+  position: absolute;
+  z-index: 99;
+  color: #36d3cf;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: 2px solid #36d3cf; 
+  top:  13%;
+  left: 87%;
+  transform: translateX(-50%);
+}
