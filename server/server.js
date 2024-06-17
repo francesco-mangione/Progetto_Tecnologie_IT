@@ -121,7 +121,7 @@ app.post("/prenotazione-guest", (req, res) => {
 })
 
 app.get("/barbertable", (req, res) => {
-  const sql = "SELECT Richiesta, Nome, Cognome, Giorno, Ora  FROM prenotazioni";
+  const sql = "SELECT Richiesta, Nome, Cognome, Giorno, Ora  FROM prenotazioni ORDER BY Giorno, Ora";
   db.query(sql, (err, data) => {
     if (err) {
       console.error("Errore durante il recupero dei dati delle prenotazioni:", err);
